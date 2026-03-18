@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # ── Load data ─────────────────────────────────────────────────────────────────
-DATA_PATH = r"E:\Databard\DLD\dld-clean.parquet"
+DATA_PATH = "https://raw.githubusercontent.com/AbuSalem0324/DLD/main/dld-clean.parquet"
 
 @st.cache_data
 def load_data():
